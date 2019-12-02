@@ -16,9 +16,6 @@ from rest_framework.permissions import IsAuthenticated
 
 
 from api.serializers.gateway import RegisterSerializer, LoginSerializer
-from api.serializers.dashboard import DashboardSerializer
-from api.serializers.instrument import InstrumentRetrieveSerializer
-from api.serializers.sensor import SensorRetrieveSerializer
 import csv
 
 
