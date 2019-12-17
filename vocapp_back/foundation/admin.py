@@ -1,8 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Instrument, TimeSeriesDatum, Sensor
+from .models import Vocabulary,Daily
 
-admin.site.register(Instrument)
-admin.site.register(TimeSeriesDatum)
-admin.site.register(Sensor)
+admin.site.register(Vocabulary)
+admin.site.register(Daily)
